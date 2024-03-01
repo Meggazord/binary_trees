@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
-size_t max(int a, int b);
-size_t binary_tree_height(const binary_tree_t *tree);
 int binary_tree_balance(const binary_tree_t *tree);
+size_t binary_tree_height(const binary_tree_t *tree);
+size_t max(int a, int b);
 
 /**
  * binary_tree_is_perfect - Checks if a binary tree is perfect
