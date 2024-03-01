@@ -14,7 +14,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
     int is_complete = 1;
     int seen_null = 0;
 
-    binary_tree_t **queue = malloc(sizeof(binary_tree_t *) * 1024);  // Assuming a maximum of 1024 nodes
+    binary_tree_t **queue = malloc(sizeof(binary_tree_t *) * 1024);
     int front = 0, rear = 0;
 
     queue[rear++] = (binary_tree_t *)tree;
